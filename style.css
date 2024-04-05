@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #767676;
+}
+
+.welcome_to{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome{
+    height: 140px;
+    width: 340px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 18px 102px;
+    box-shadow: 5px 5px 1px #762474;
+    color: #962436;
+    text-shadow: 1px 1px 1px  #762474;
+    font-size: 17.8px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.four_div{
+    border: 5px solid green;
+}
+
+.two_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    height: 240px;
+    width: 235px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 12px;
+    box-shadow: 5px 5px 1px #762474;
+}
+
+.box1{
+    line-height: 47px;
+    color: #0c070a;
+    text-shadow: 1px 1px 1px  #762474;
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+img{
+    height: 166px;
+    width: 192px;
+    margin: 34px 17px;
+}
+
+.box2, .box4{
+    margin-right: 70px;
+}
+
+.box3{
+    color: #0c070a;
+    text-shadow: 1px 1px 1px  #762474;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 23px 0px;
+}
+
+.box4{
+    text-shadow: 1px 1px 1px  #762474;
+    text-align: center;
+    padding: 23px 0px;
+}
+
+input{
+    text-align: center;
+}
+
+button{
+    background-color: #962436;
+    border-radius: 10px;
+}
+
+.main_store{
+    display: flex;
+    justify-content: center;
+}
+
+.store{
+    border: 5px solid #762474;
+    text-align: center;
+    background-color: green;
+    width: 737px;
+}
+
+.box_store{
+    line-height: 20px;
+    background-color: #ede280;
+    line-height: 35px;
+    padding: 20px 2px;
+}
+
+.my_store{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.only{
+    height: 65px;
+    width: 330px;
+    color: #962436;
+    box-shadow: 5px 5px 1px #762474;
+    border-radius: 15px;
+    border: 5px solid red;
+    background-color: #a0f33c;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.on{
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.exciting{
+    position: fixed;
+    left: 350px;
+    bottom: 50px;
+}
+
